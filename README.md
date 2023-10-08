@@ -55,6 +55,11 @@ Account inherits Multicall contract that allows the account to perform both call
 
 For example, 1) approve tx to an ERC20 token 2) swap tx via SwapModule.
 
+## Demo with Flow
+
+https://github.com/ZkSwapGuard/swap/assets/61940373/35bd1165-c8d5-465c-a158-dd2e7c78fe5a
+
+![224521483-df2a6cad-c653-4a16-91fb-6e73de31a1db](https://github.com/ZkSwapGuard/swap/assets/61940373/73a7eeb8-0b5d-4520-b06d-fb9de5fa29bf)
 
 ## Getting Started
 
@@ -71,7 +76,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/ZkSwapGuard.git
+   git clone https://github.com/ZkSwapGuard.git
    cd ZkSwapGuard
    ```
 
@@ -98,14 +103,6 @@ To use ZkSwapGuard, follow these steps:
 2. Connect your wallet to an Account Abstraction account by providing the deployed account address (0xD1180...) and following the on-screen instructions.
 
 3. Once connected, you can view account trade limits and perform token swaps subject to SwapModule limitations. Input the desired swap amount and follow the instructions.
-
-## Demo
-
-Watch our [demo video](demo1.mp4) to see ZkSwapGuard in action. It showcases the process of swapping DAI for ETH on a DEX UI, with detailed explanations and limitations.
-
-## Contributing
-
-We welcome contributions from the community! Please review our [contribution guidelines](CONTRIBUTING.md) before getting started.
 
 ## License
 
