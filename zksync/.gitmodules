@@ -1,0 +1,14 @@
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/rari-capital/solmate
+    ignore=dirty
+[submodule "lib/v2-testnet-contracts"]
+	path = lib/v2-testnet-contracts
+	url = https://github.com/matter-labs/v2-testnet-contracts
+    ignore=dirty
+	branch = sb-update-for-new-regenesis
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+	branch = master
+    ignore =dirty
